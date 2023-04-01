@@ -1,0 +1,75 @@
+html {
+  border-left: 5px solid lightgray;
+}
+body {
+  min-height: 100vh;
+  font-family: sans-serif;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+header,
+main,
+footer {
+  padding: 1rem 2rem;
+}
+h1 {
+  font-weight: 100;
+  font-size: 6rem;
+  color: tomato;
+}
+img {
+  width: 100%;
+}
+
+nav > ul {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+header > nav > ul > li > a {
+  color: lightgray;
+}
+
+footer > nav > ul > li > a {
+  color: tomato;
+}
+
+h2 {
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+
+h3 {
+  color: gray;
+}
+
+article {
+  margin-bottom: 4rem;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 2rem;
+}
+
+article p::first-letter {
+  float: left;
+  font-size: 5rem;
+  font-weight: 400;
+  color: lightgray;
+}
+
+footer > span::before {
+  content: "\00A9";
+  color: lightgray;
+}
+
+article > span {
+  color: tomato;
+  position: absolute;
+  right: 0;
+}
+
+article > p {
+  line-height: 1.75em;
+}
